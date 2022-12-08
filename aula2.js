@@ -9,3 +9,5 @@ http.createServer(function (req, res){
     res.end(txt);
 
 }).listen(80);  
+
+//passando informação direto do site: http://localhost/?dia=2&mes=jan&ano=2021
